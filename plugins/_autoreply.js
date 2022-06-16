@@ -12,19 +12,14 @@ handler.all = async function (m) {
     let { group } = db.data.settings[this.user.jid]
     let setting = db.data.settings[this.user.jid]
     let user = global.db.data.users[m.sender]
-    
-    // salam
-    let reg = /(ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم)/i
-    let isSalam = reg.exec(m.text)
-    if (isSalam && !m.fromMe) {
-        m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`)
+  
+        
     }
-    
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.sendButton(m.chat, `┌「 *Undang Bot ke Grup* 」
-├ 7 Hari / Rp 5,000
-├ 30 Hari / Rp 15,000
+├ 7 Hari / RM 5
+├ permanent / RM 10
 └────
 `.trim(), wm, 'Pemilik Bot', '.owner', m)
     }
