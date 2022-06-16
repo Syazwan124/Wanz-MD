@@ -5,7 +5,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-┏──『 мυяѕι∂ вσт 』──⬣
+┏──『 X-WanzBotz 』──⬣
 │⬡ *Hai*, %name
 │
 │⬡ *Tersisa* : %limit Limit
@@ -21,8 +21,7 @@ const defaultMenu = {
 │⬡ *Uptime* : %uptime
 │⬡ *Database* : %rtotalreg dari %totalreg
 │⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-│⬡ *Instagram* :
-│⬡ https://instagram.com/mursid.st
+│⬡ *WhatsApp Me* :https://wa.me/60195471037?text=
 ┗─────────────⬣
 %readmore`.trim(),
   header: '┏──『 %category 』──⬣', 
@@ -191,7 +190,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${global.ucapan}, ${name}`.trim()
       const sections = [
       {
-        title: 'ℓιѕт мєηυ мυяѕι∂ вσт' ,
+        title: 'LIST MENU X-WanzBotz' ,
         rows: [
           { title: 'Semua Perintah', rowId: `${_p}? all` },
           { title: 'Game', rowId: `${_p}? game` },
