@@ -37,11 +37,11 @@ global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ...*_'
 
 //========Url Template Buttons=========//
 global.dtu = 'ɪηѕтαgʀαм'
-global.urlnya = "https://www.instagram.com/mursid.st"
+global.urlnya = "https://www.instagram.com/MidWanzofficial"
 
 //============= callButtons =============//
 global.dtc = 'ᴄαℓℓ σωηєʀ'
-global.phn = '+62 882-3383-2771'
+global.phn = '+6019-547 1037'
 
 //============= Games ================//
 global.benar = '_*Benar*_'
