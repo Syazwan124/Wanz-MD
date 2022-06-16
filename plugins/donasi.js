@@ -1,10 +1,10 @@
 let handler = async (m, { conn, usedPrefix }) => conn.sendButton(m.chat, `
-┏──「 Donasi • Dana 」─⬣
-│ • Gopay : 088233832771
-│ • Dana : 088233832771
+┏──「 Donasi • Digi/Tng 」─⬣
+│ • Tng : 195471037
+│ • Digi : 0169650449
 ╰────────⬣
 ┏──「 *NOTE* 」─⬣
-│ > Ingin donasi? wa.me/6288233832771
+│ > Ingin donasi? wa.me/60195471037
 │ _Hasil donasi akan digunakan buat sewa_
 │ _atau beli *RDP/VPS* agar bot bisa jalan_
 │ _24jam tanpa kendala_
